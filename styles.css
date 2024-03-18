@@ -1,5 +1,6 @@
 a {
     text-decoration: none;
+    color: white;
 }
 
 body {
@@ -49,7 +50,21 @@ body {
     margin: 0;
 }
 
+#download-btn {
+    align-self: center;
+    font-family: 'Mallanna', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    height: 50px;
+}
 
+#download-btn:hover {
+    background-color: orangered;
+}
 
 #my-name {
     margin-left: 20px;
@@ -137,6 +152,10 @@ body {
     color: #16FF00;
 }
 
+.proj-title:hover {
+    color: green;
+}
+
 .proj-desc {
     color: white;
     text-align: center;
@@ -196,6 +215,11 @@ strong {
     color: white;
     text-align: center;
     margin-bottom: 40px;
+}
+
+svg {
+    position: relative; 
+    top: 4px;
 }
 
 .techs {
