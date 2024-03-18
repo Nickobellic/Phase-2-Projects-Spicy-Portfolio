@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+.contact {
+    font-family: 'Copse', serif;
+    font-size: 18px;
+    background-color: white;
+    color: #32CD32;
+    border: 1px solid red;
+    height: 30px;
+    width: 120px;
+    align-self: center;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
+#my-name {
+    margin-left: 20px;
+    align-self: flex-start;
+    width: 70%;
+}
+
+.navbar {
+    font-family: 'Copse',serif;
+    color: #32CD32;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.links {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.links > a {
+    text-align: center;
+    text-decoration: none;
+    color: #32CD32;
+}
+
+.quote {
+    height: 550px;
+    font-family: 'Copse', sans-serif;
+    font-size: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote-line {
+    text-align: center;
+}
