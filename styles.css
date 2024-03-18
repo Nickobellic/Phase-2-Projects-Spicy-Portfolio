@@ -27,6 +27,30 @@ body {
     margin-right: 20px;
 }
 
+#contact {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: #16FF00;
+    text-align: center;
+    font-family: 'Mallanna', sans-serif;
+}
+
+#contact > h1 {
+    color: white;
+    margin: 0;
+    font-size: 50px;
+    font-family: 'Copse', serif;
+}
+
+#contact > h2 {
+    margin: 0;
+}
+
+
+
 #my-name {
     margin-left: 20px;
     margin-bottom: 15px;
@@ -67,7 +91,7 @@ body {
 }
 
 #portfolio {
-    margin-top: 150px;
+    margin: 150px 0;
     display: flex;
     flex-direction: column;
 }
@@ -87,6 +111,7 @@ body {
     margin: 50px 0;
     width: 340px;
     height: 380px;
+    border-radius: 10px;
     background-color: black;
 }
 
@@ -121,6 +146,21 @@ body {
     font-size: 23px;
 }
 
+progress {
+    color: #16FF00;
+}
+
+progress::-moz-progress-bar {
+    background: white;
+}
+
+progress::-webkit-progress-value {
+    background: #16FF00;
+}
+
+
+
+
 #quote {
     padding-top: 120px;
     height: 550px;
@@ -138,6 +178,37 @@ body {
 
 strong {
     color: white;
+}
+
+#skills {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#skills > h1 {
+    font-family: 'Copse', serif;
+    font-size: 55px;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.techs {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: #16FF00;
+    font-family: 'Copse', serif;
+}
+
+.tech {
+    width: 50%;
+    margin-left: 100px;
 }
 
 .work {
