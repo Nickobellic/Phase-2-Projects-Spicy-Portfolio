@@ -10,17 +10,58 @@
     <link href="https://fonts.googleapis.com/css2?family=Copse&family=Mallanna&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="navbar">
+    <div id="navbar">
         <h1 id="my-name">RAHUL KANNA AV</h1>
-        <h2 class="links"><a href="#">HOME</a></h2>
-        <h2 class="links"><a href="#">BIO</a></h2>
+        <h2 class="links"><a href="#quote">HOME</a></h2>
+        <h2 class="links"><a href="#bio">BIO</a></h2>
         <h2 class="links"><a href="#">SKILLS</a></h2>
-        <h2 class="links"><a href="#">PORTFOLIO</a></h2>
+        <h2 class="links"><a href="#portfolio">PORTFOLIO</a></h2>
         <button class="contact">CONTACT</button>
     </div>
 
-    <div class="quote">
+    <div id="quote">
         <h1 id="quote-line">STATUS = WORKS() ? HAPPY() : DEBUG();</h1>
+    </div>
+
+    <div id="bio">
+        <img class="my-img" src="./images/my_img.jpg" alt="">
+        <div class="work">
+            <h2>Rahul Kanna AV</h2>
+            <p>Worked as <strong>Product Developer Intern</strong> at Humcen Global Private Ltd from <strong> July 2023 - October 2023</strong></p>
+            <p>Contributed on Back End in Automated Job Scheduling, Assigns etc, Front End in Landing Page Design by fixing responsiveness issues, developing the Patent Services Website.</p>
+            <p>Have some experience in working with <strong>Blockchain</strong>  Development with <strong>Motoko and ICP</strong> , <strong>Back End</strong>  Web Development, Python Automation using <strong>Selenium</strong> , Databases such as <strong>SQL, MongoDB, PostgreSQL,</strong>  Front End frameworks such as <strong>React JS</strong> </p>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <h2 style="font-size: 35px;">Some of my Projects</h2>
+        <div class="proj-container">
+            <div class="proj-card">
+                <div class="proj-img-cont">
+                    <img class="proj-img" src="./images/icp.jpg" alt="">
+                </div>
+               <a href="https://github.com/Nickobellic/NFT_Marketplace_D_App"> <h2 class="proj-title">NFT Marketplace</h2></a>
+                <p class="proj-desc">NFT Marketplace built on top of ICP Blockchain (Motoko Language) with React Frontend</p>
+            </div>
+            <div class="proj-card">
+                <div class="proj-img-cont">
+                    <img class="proj-img" src="./images/scikit.jpg" alt="">
+                </div>
+                <a href="https://github.com/Nickobellic/Loan-Amount-Predictor"><h2 class="proj-title">Loan Amount Predictor</h2></a>
+                <p class="proj-desc">Loan Amount Predictor Model built with Python's Scikit Learn Library</p>
+            </div>
+            <div class="proj-card">
+                <div class="proj-img-cont">
+                    <img class="proj-img" src="./images/chat.jpg" alt="">
+                </div>
+                <a href="https://github.com/Nickobellic/Botes---Book-Notes-taking-Web-app"><h2 class="proj-title">Botes</h2></a>
+                <p class="proj-desc"> Note taking app that solves the issue of forgetting important points given in a Book.  </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills">
+
     </div>
 
     

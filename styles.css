@@ -1,13 +1,25 @@
+a {
+    text-decoration: none;
+}
+
 body {
     margin: 0;
+}
+
+#bio {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding: 150px 0;
 }
 
 .contact {
     font-family: 'Copse', serif;
     font-size: 18px;
     background-color: white;
-    color: #32CD32;
-    border: 1px solid red;
+    color: #16FF00;
+    border: 1px solid #16FF00;
     height: 30px;
     width: 120px;
     align-self: center;
@@ -17,13 +29,25 @@ body {
 
 #my-name {
     margin-left: 20px;
+    margin-bottom: 15px;
     align-self: flex-start;
     width: 70%;
 }
 
-.navbar {
+.my-img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-right: 100px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
     font-family: 'Copse',serif;
-    color: #32CD32;
+    color: #16FF00;
     background-color: black;
     display: flex;
     flex-direction: row;
@@ -33,17 +57,74 @@ body {
 .links {
     margin-top: 20px;
     margin-right: 20px;
+    margin-bottom: 15px;
 }
 
 .links > a {
     text-align: center;
     text-decoration: none;
-    color: #32CD32;
+    color: #16FF00;
 }
 
-.quote {
+#portfolio {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+#portfolio > h2 {
+    font-family: 'Copse', serif;
+    text-align: center;
+}
+
+.proj-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.proj-card {
+    margin: 50px 0;
+    width: 340px;
+    height: 380px;
+    background-color: black;
+}
+
+.proj-img-cont {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.proj-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.proj-title {
+    text-align: center;
+    font-family: 'Copse', serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #16FF00;
+}
+
+.proj-desc {
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Mallanna', sans-serif;
+    font-size: 23px;
+}
+
+#quote {
+    padding-top: 120px;
     height: 550px;
-    font-family: 'Copse', sans-serif;
+    font-family: 'Copse', serif;
     font-size: 37px;
     display: flex;
     flex-direction: row;
@@ -53,4 +134,17 @@ body {
 
 #quote-line {
     text-align: center;
+}
+
+strong {
+    color: white;
+}
+
+.work {
+    align-self: center;
+    font-family: 'Mallanna', sans-serif;
+    font-size: 22px;
+    margin: 15px 50px;
+    color: #16FF00;
+
 }
